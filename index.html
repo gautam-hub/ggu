@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam Grih Udyog</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        $(document).ready(function(){
+            $('#icon').Click(function(){
+                $('ul').togglClass('show');
+            });
+            });
+    </script>
+</head>
+<body>
+    <nav>
+     <label class="logo">Gautam
+         Grih Udyog</label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="pro.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+             <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+        <header>
+            <div class="slider">
+                <!-- fade css -->
+                <div class="myslide fade">
+                    <video src="firstvid.mp4" autoplay muted loop style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <video src="second.mp4" autoplay muted loop style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <video src="third vid.mp4" autoplay muted loop style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <img src="fourth.jpg" style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <video src="fifth.mp4" autoplay muted loop style="width: 100%; height: 100%;">
+                </div>
+                <!-- /fade css -->
+                
+                <!-- onclick js -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                <div class="dotsbox" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <!-- /onclick js -->
+            </div>
+        </header>
+        <main>
+            <h1 class="vision">
+             Gautam Grih Udyog
+            </h1>
+
+            <img src="statement.png" width="100%" height="100%">
+        </main>
+        <div>
+            <h1 class="protxt">Our Team</h1>
+        </div>
+        <section>
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx"><img src="owner1.jpg"  width="270px" height="300px"> </div>
+                        <div class="contentBx">
+                            <h3>Guddu Kumar<br><span>CEO</span></h3>
+                        </div>
+                    </div>
+                    
+            <ul class="sci">
+                <li class="--i:1">
+                    <a href="https://www.facebook.com/gautam.perfumery.7" target="_blank"><img src="facebook.png" height="30px" width="30px"></a>
+                </li>
+                <li class="--i:2">
+                    <a href="https://bit.ly/3dzy0jf" target="_blank"><img src="waf.png" height="30px" width="30px"></a>
+                </li>
+                <li class="--i:3">
+                    <a href="https://www.twitter.com" target="_blank"><img src="twitter.png" height="30px" width="30px"></a>
+                </li>
+            </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx"><img src="owner2.jpg" width="270px" height="300px"> </div>
+                        <div class="contentBx">
+                            <h3>Gautam<br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+                    
+            <ul class="sci">
+                <li class="--i:1">
+                    <a href="https://www.facebook.com/gautam2482000/" target="_blank"><img src="facebook.png" height="30px" width="30px"></a>
+                </li>
+                <li class="--i:2">
+                    <a href="https://www.instagram.com/gautam_2416/" target="_blank"><img src="instagram.png" height="30px" width="30px"></a>
+                </li>
+                <li class="--i:3">
+                    <a href="https://twitter.com/gautam89368" target="_blank"><img src="twitter.png" height="30px" width="30px"></a>
+                </li>
+            </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="content">
+              <div class="left box">
+                <div class="upper">
+                  <div class="topic">About us</div>
+                  <p>Gautam Grih Udyog<br>Address:-Nouagadhi,Ward No-3,<br>Near-Bela Durga Mandir,<br>Bela Darbhanga (846004)</p>
+                </div>
+                <div class="lower">
+                  <div class="topic">Contact us</div>
+                  <div class="phone">
+                    <a href="tel:9470275691"><i class="fas fa-phone-volume"></i>9470275691</a>
+                  </div>
+                  <div class="email">
+                    <a href="mailto:gautamgrihudyog@gmail.com"><i class="fas fa-envelope"></i>gautamgrihudyog@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="middle box">
+                <div class="topic">Quick Links</div>
+                <div><a href="#" class="active">Home</a></div>
+                <div><a href="pro.html">Our Products</a></div>
+                <div><a href="about.html">About Us</a></div>
+                <div><a href="contact.html">Contact us</a></div>
+                <div><a href="https://drive.google.com/drive/folders/1iNQ-Soz2cOqYRJoC8W-roA0fdGPNI1A4?usp=sharing" target="_blank">Privacy & Policy</a></div>
+                <div><a href="https://drive.google.com/drive/folders/1CEp-mdwGe6LoeRHIOzU7t-HZ9uk2xh1v?usp=sharing" target="_blank">Terms & Conditions</a></div>
+              </div>
+                
+              <div class="right box">
+                <div class="topic">Subscribe us</div>
+                 <form action="https://formspree.io/f/xknkzqgg">
+                  <input type="text" placeholder="Enter email address">
+                  <input type="submit" name="" value="Send">
+                  <div class="media-icons">
+                    <a href="https://www.facebook.com/gautam.perfumery.7" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/gautam_2416/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/gautam89368" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://bit.ly/3dzy0jf" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/gautam-7a87971b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </form> 
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Copyright © 2021 <a href="https://www.linkedin.com/in/gautam-7a87971b3/" target="_blank">Gautam.</a> All rights reserved</p>
+            </div>
+          </footer>
+        <script src="script.js"></script>
+</body>
+</html>
